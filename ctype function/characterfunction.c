@@ -26,6 +26,6 @@ int main()
     // String Initialization 
     char a[] 
         = "Hi 1234, "
-          " Welcome to GeeksForGeeks"; 
+          " Welcome to Nepal"; 
     identify_alpha_numeric(a); 
 } 
