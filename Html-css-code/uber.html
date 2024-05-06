@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber</title>
+    <style>
+        .title{
+            margin-top: 10px;
+            font-size: 40px;
+            font-family: arial;
+            font-weight: 500;
+            height: 30px;
+            vertical-align: top;
+ 
+        }
+        .destination,
+        .pickup{
+            width: 400px;
+            height: 40px;
+            border-style: none;
+            background-color: rgb(241, 239, 239);
+            font-family: Arial;
+            font-size: 17px;
+        }
+        .destination{
+            margin-top: 10px;
+        
+        }
+
+        .request{
+            margin-top: 30px;
+            height: 40px;
+            border-style: none;
+            width: 125px;
+            color: white;
+            background-color: black;
+            font-style: arial;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        .later{
+            margin-top: 30px;
+            height: 40px;
+            border-style: none;
+            width: 160px;
+            color: black;
+            background-color: rgb(241, 239, 239);
+            font-style: arial;
+            font-size: 15px;
+            display: inline;
+            font-weight: 500;
+            margin-left: 10px;
+            cursor: pointer;
+            
+        }
+
+        .pickup,
+        .destination{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <p class="title">Request a ride now</p>
+    <input class="pickup" type="text" placeholder="Enter pickup location">
+    <input class="destination" type="text" placeholder="Enter destination">
+    <button class="request">Request now</button>
+    <button class="later">Schedule for later</button>
+</body>
+</html>
