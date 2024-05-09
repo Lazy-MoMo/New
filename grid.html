@@ -6,18 +6,31 @@
     <title>Grid practice</title>
 
 </head>
-<body>
+<body style="padding-bottom: 1000px;">
     <div style="display: grid;
-    grid-template-columns:100px 100px;">
+    grid-template-columns:100px 1fr">
         <div style="background-color: aqua;"> div 1</div>
         <div style="background-color: green;"> div 2<p>hello</p></div>
     </div>    
 
     <div style="display: grid;
-    grid-template-columns:100px 100px 200px;">
+    grid-template-columns:100px 100px;">
         <div style="background-color: rgb(117, 212, 105);"> div 1</div>
-        <div style="background-color: rgb(240, 145, 232);"> div 2<p>hello</p></div>
-        <div style="background-color: bisque;">div 3 <p>aagain</p></div>
+        <div style="background-color: rgb(209, 211, 73);"> div 2<p>100px</p></div>
+        
+    </div>
+
+    <div style="display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;">
+        <div style="background-color: rgb(117, 212, 105);height: 200px;"> div 1<p>1fr</p></div>
+        <div style="background-color: rgb(240, 145, 232);height: 200px;"> div 2<p>1fr</p></div>
+        <div style="background-color: bisque;height: 200px;">div 3 <p>1 fr</p></div>
+        <div style="background-color: rgb(240, 145, 232);height: 200px;"> div 2<p>1fr</p></div>
+        <div style="background-color: bisque;height: 200px;">div 3 <p>1 fr</p></div>
+        <div style="background-color: rgb(117, 212, 105);height: 200px;"> div 1<p>1fr</p></div>
+
     </div>
 </body>
 </html>
